@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-# Load the DataFrame and import libraries
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
