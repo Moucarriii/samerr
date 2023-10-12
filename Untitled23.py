@@ -83,8 +83,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load your DataFrame
-data_file_path = r"C:\Users\sr48\OneDrive - American University of Beirut\Desktop\Games.csv"
-df = pd.read_csv(data_file_path)
+df = pd.read_csv("Games.csv")
 
 # Title for your Streamlit app
 st.title('Number of Wins and Losses for Selected Teams')
@@ -145,8 +144,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load your DataFrame
-data_file_path = r"C:\Users\sr48\OneDrive - American University of Beirut\Desktop\Games.csv"
-df = pd.read_csv(data_file_path)
+df = pd.read_csv("Games.csv")
 
 # Title for your Streamlit app
 st.title('Annual Average Metrics for Selected Teams')
@@ -190,8 +188,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load your DataFrame
-data_file_path = r"C:\Users\sr48\OneDrive - American University of Beirut\Desktop\Games.csv"
-df = pd.read_csv(data_file_path)
+df = pd.read_csv("Games.csv")
 
 # Title for your Streamlit app
 st.title('Annual Average Metrics for Selected Teams')
