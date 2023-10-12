@@ -12,11 +12,8 @@ import plotly.express as px
 
 import pandas as pd
 
-# Define the file path
-file_path = r'C:\Users\sr48\OneDrive - American University of Beirut\Desktop\Games.csv'
-
 # Use Pandas to read the CSV file into a DataFrame
-df = pd.read_csv(file_path)
+df = pd.read_csv("Games.csv")
 
 # Print the first 5 rows of the DataFrame
 df.head()
